@@ -1,0 +1,4 @@
+# For Analysis
+numpy
+matplotlib
+statsmodels
