@@ -6,7 +6,7 @@ N = 10000
 # Number of "darts" landing in circle
 in_circle = 0
 
-# We need to pick random x coordinate and random y coorrdinate. 
+# We need to pick random x coordinate and random y coordinate. 
 # Add if in.
 for i in range (N - 1):
     x = np.random.uniform(-1,1)
