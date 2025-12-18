@@ -9,7 +9,7 @@ def random_walk(n: int) -> tuple:
 	return (x,y)
 
 def walk(num_trials: int):
-	num_walks = 100000
+	num_walks = 10000
 
 	for walk_length in range(1, num_trials + 1):
 		# Number of walks that keep you close to home 
@@ -24,4 +24,4 @@ def walk(num_trials: int):
 		print(f"Walk size = {walk_length} / % of close walks = {100*close_walks}")
 
 
-walk(50)
+walk(100)
