@@ -10,3 +10,4 @@ def fib(n: int) -> int:
 
 
 print(f"Fib(3) = {fib(3)}")
+print(f"Fib(10) = {fib(10)}")
