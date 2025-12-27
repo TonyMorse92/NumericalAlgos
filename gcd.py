@@ -11,3 +11,4 @@ def gcd(a: int, b: int) -> int:
 
 print(f"GCD(6,4) = {gcd(6,4)}")
 print(f"GCD(5,5) = {gcd(5,5)}")
+print(f"GCD(14,9) = {gcd(14,9)}")
