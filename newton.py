@@ -14,8 +14,8 @@ def newton(f, der_f, x0, eps, iterations):
 	return None
 	    
 def test():
-	f = lambda x: x**3 - x - 1
-	der_f = lambda x: 3*x**2 - 1
+	f = lambda x: x**2 - x - 1
+	der_f = lambda x: 2*x - 1
 	print(f"This soultion should be about 1.32: {newton(f, der_f, 1, 1e-4, 10)}") 
 
 
