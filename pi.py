@@ -1,14 +1,14 @@
 import numpy as np
 
 # Number of "darts"
-N = 10000
+N = 100000
 
 # Number of "darts" landing in circle
 in_circle = 0
 
 # We need to pick random x coordinate and random y coordinate. 
 # Add if in.
-for i in range (N - 1):
+for i in range (N-1):
     x = np.random.uniform(-1,1)
     y = np.random.uniform(-1,1)
     
