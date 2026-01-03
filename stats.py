@@ -12,7 +12,7 @@ def plot_hist(x: List[float]) -> None:
 def my_mean(x: List[int]) -> None:
 	return sum(x)/len(x)
 
-num_runs = 100
+num_runs = 250
 
 timing = num_runs * [0]
 
@@ -30,5 +30,5 @@ def test_funct(func):
 
 test_funct(my_mean)
 
-#plot_hist(timing)
+plot_hist(timing)
 
